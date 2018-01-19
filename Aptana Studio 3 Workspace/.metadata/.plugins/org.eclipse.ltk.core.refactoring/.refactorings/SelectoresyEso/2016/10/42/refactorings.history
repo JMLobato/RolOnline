@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 resources to &apos;fondos&apos;" description="Move 1 resources to &apos;fondos&apos;" destination="fondos" element1="/aplweb16/imagenes/bailarin.gif" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1476964411917" updateReferences="true"/>
+</session>

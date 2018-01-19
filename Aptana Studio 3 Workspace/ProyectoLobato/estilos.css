@@ -1,0 +1,70 @@
+body {background-image:url("criaturas/fondo.jpg"); 
+	background-repeat:no-repeat;
+	background-size:cover;
+	cursor: url(criaturas/ope.gif), auto;}
+h1, h3{text-align: center;
+	font-family:"Book Antiqua";
+	color:#800000;}
+.menu {font-family:"Book Antiqua";
+		text-shadow;
+		color:blue;
+		text-align: center;
+		width: 100%;
+		background-color: gray;
+		border: 2px solid;
+		border-radius: 12px;}	
+a{text-decoration: none;
+color:white;}
+a:hover{color:purple;
+cursor: url(criaturas/ope.gif), auto;} p{clear:both;}
+.men:hover{background-color:gray;
+			color:purple;}	#g{margin-left: 37%;border:hidden ;border-radius: 1200px;}	#h{margin-left: 30%; width:40%; border-radius:200px;}
+#a{float:left;
+	background-repeat:no-repeat;
+	width: 20%;
+	height: 500px;
+	margin-left: 10%;}
+#b{background-repeat:no-repeat;
+	float:left;
+	width: 20%;
+	height: 500px;
+	margin-left: 15%;
+	color:#389aeb;}
+#c{float:left;
+	background-repeat:no-repeat;
+	color:#94ad99;
+	width: 20%;
+	height: 500px;
+	margin-left: 10%;}
+#d{width:50%;
+margin-left:25%;}
+#e{width:30%;
+margin-left:10%;
+border-style:groove;
+border-color:#0000FF;}
+#f{width:30%;
+margin-left:15%;
+border-style:groove;
+border-color:#0000FF;}
+#vid{visibility:hidden;}
+.izq{float:left;
+width:30%;}
+.der2{float:right;
+width:50%;
+margin-right:260px;}
+.der{float:right;
+width:30%;}
+#deth2{background-image:url("criaturas/sangre2.png");
+width:400px;
+height: 400px;}
+#deth{background-image:url("criaturas/sangre.png");}
+#robo{position:relative;
+	animation-name: robo1;
+	animation-duration:3s;
+    animation-iteration-count:infinite;}
+@keyframes robo1 {
+    0%   {left:2000px; top:0px;}
+    25%  {left:2000px; top:200px;}
+    50%  {left:0px; top:200px;}
+    75%  {left:2000px; top:0px;}
+    100% {left:0px; top:9px;}

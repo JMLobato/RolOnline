@@ -1,0 +1,14 @@
+/**
+ * @author usuario
+ */
+function finde(N1){
+if ((N1>=1) && (N1<=7)) {
+			if(N1>=6){
+				document.write("Es fin de semana" + "<br/>");}
+			else {
+				document.write("No es fin de semana" + "<br/>");
+	}
+		else {
+		document.write("No es un número valido"+"<br/>");
+		}
+}

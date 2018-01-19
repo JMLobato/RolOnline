@@ -1,0 +1,12 @@
+/**
+ * @author usuario
+ */
+var N1 = prompt("Introduce un número: ");
+if (isNaN(N1)){
+	document.writeln( N1 + " no es un número" + "<br/>");
+}
+	else if ( N2 === 0){
+		document.writeln( N1 + " es par" + "<br/>");
+	}
+	else {
+		document.writeln( N1 + " es impar" + "<br/>");

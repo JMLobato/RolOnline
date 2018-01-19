@@ -1,0 +1,16 @@
+/**
+ * @author usuario
+ */
+var N1 = prompt("Introduce un número: ");
+if (isNaN(N1)){
+	document.writeln( N1 + " no es un número" + "<br/>");
+}
+	else if ((N1>=1)&&(N1<=7)){
+			if(N1>=6){
+		document.writeln("Es fin de semana" + "<br/>");}
+			else {
+		document.writeln("No es fin de semana" + "<br/>");
+	}
+	else {
+		document.writeln("No es un número valido"+"<br/>");
+	}

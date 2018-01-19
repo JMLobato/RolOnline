@@ -1,0 +1,35 @@
+function tabla(){
+	var n1 = prompt("Introduce un número: ");
+	var cont=0;
+	var re;
+	document.write("<table></table>");
+	n1= prompt("introduce un numero");
+	while(cont<=10){
+		re=n1*cont;
+		document.write(n1+" por "+cont+" es igual a "+re);
+		cont++;
+		}
+}
+alert("Holita");
+var N1 = prompt("Introduce un número: ");
+N2=N1%2;
+if (isNaN(N1)){
+	document.writeln( N1 + " no es un número" + "<br/>");
+}
+	else if ( N2 === 0){
+		document.writeln( N1 + " es par" + "<br/>");
+	}
+	else {
+		document.writeln( N1 + " es impar" + "<br/>");
+}
+
+var N3 = prompt("Introduce otro numero: ");
+if (isNaN(N3)){
+	document.writeln( N3 + " no es un número " + "<br/>");
+}
+	else if ( N1 >= N3 ){
+		document.writeln(N1 + " es mayor que " + N3 + "<br/>");
+	}
+	else {
+		document.writeln(N1 + " es menor que " + N3 + "<br/>");
+	}

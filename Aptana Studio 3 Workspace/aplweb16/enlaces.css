@@ -1,0 +1,8 @@
+a:visited {color :#800080;}
+a:hover {color :purple;
+line-height: 10px;
+font-style:italic;
+background: black;}
+a:focus {color :#0000FF;}
+a:active {color :#000000;}
+a:link {color :#6b73a5;}

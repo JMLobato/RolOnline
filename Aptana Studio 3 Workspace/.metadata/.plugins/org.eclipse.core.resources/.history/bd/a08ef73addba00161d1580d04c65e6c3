@@ -1,0 +1,34 @@
+/**
+ * @author usuario
+ */
+function finde(N1){
+if (isNaN(N1)){
+	document.write( N1 + " no es un número" + "<br/>");
+}
+	else if ((N1>=1) && (N1<=7)) {
+	
+			if(N1>=6){document.write("Es fin de semana" + "<br/>");}
+			
+			else {document.write("No es fin de semana" + "<br/>");}
+		}
+		else {document.write("No es un número valido"+"<br/>");}
+}
+function dias(N1){
+	
+	var dias=new Array(7);
+	dias[0]="Lunes";
+	dias[1]="Martes";
+	dias[2]="Miercoles";
+	dias[3]="Jueves";
+	dias[4]="Viernes";
+	dias[5]="Sábado";
+	dias[6]="Domingo";
+	
+	if ((N1>=1) && (N1<=7)) {
+	
+			if(N1>=6){document.write("Es fin de semana y el dia es "+ dias[N1-1] + "<br/>");}
+			
+			else {document.write("Es entre de semana y el dia es "+ dias[N1-1] + "<br/>");}
+		}
+	else {document.write("No es un número valido"+"<br/>");}
+}

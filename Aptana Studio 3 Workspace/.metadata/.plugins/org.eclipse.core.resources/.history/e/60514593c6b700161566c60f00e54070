@@ -1,0 +1,11 @@
+
+	var n1 = prompt("Introduce un número: ");
+	var cont=0;
+	var re;
+	document.write("<table></table>");
+	n1= prompt("introduce un numero");
+	while(cont<=10){
+		re=n1*cont;
+		document.write(n1+" por "+cont+" es igual a "+re+"<br/>");
+		cont++;
+}

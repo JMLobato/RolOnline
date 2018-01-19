@@ -1,0 +1,80 @@
+body {
+	background-image: url('imagenes/zombiedeadpool.jpg');
+	background-repeat:no-repeat;}
+h1, h2, h3, h4, h5 {
+		color:purple;
+		font-family:"Bookman Old Style";
+		border-bottom-width:0;
+		border-bottom-style:solid;
+		border-bottom-color:blue;
+		text-decoration:li;
+	}
+dt, ol,{
+		color:navy;
+		font-style:italic;
+		font-size:medium;
+		text-align:right;
+	}
+.pico {
+		color:black;
+		font-style:italic;
+		font-size:medium;
+		text-align:right;
+	}
+p.pico {
+		color:black;
+		font-style:italic;
+		font-size:medium;
+		text-align:right;
+	}
+ul, p, .alarma{
+		color:red;
+		font-style:italic;
+		font-size:medium;
+	}
+#recreo {	
+	color:orange;
+	}
+#aplof{	
+	background:#0000FF;
+	color:orange;
+	}
+#einem{	
+	background:#008000;
+	color:black;
+	}
+#momae{	
+	background:#808000;
+	color:green;
+	}
+#redlo{	
+	background:#FF0000;
+	color:blue;
+	}
+#serre{	
+	background:#808000;
+	color:lightgrey;
+	}
+#siopm{	
+	background:#00FF00;
+	color:yellow;
+	}
+#siopr{	
+	background:#0000FF;
+	color:red;
+	}
+#PRIMERO{
+	background:#008000;
+	color:brown;
+	}
+#SEGUNDO{
+	background:#800080;
+	color:lime;
+	}
+table {
+	background-color:grey;	
+	color:pink;
+	font-style:italic;
+	font-size:medium;
+	}
+.vigo{text-align: center}

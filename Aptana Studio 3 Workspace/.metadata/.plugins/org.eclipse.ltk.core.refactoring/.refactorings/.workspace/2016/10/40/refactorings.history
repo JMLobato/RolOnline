@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;aplweb16/imagenes/zombiedeadpool.jpg&apos;" deleteContents="false" description="Delete resource &apos;aplweb16/imagenes/zombiedeadpool.jpg&apos;" element1="/aplweb16/imagenes/zombiedeadpool.jpg" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1475498679467"/>
+</session>
